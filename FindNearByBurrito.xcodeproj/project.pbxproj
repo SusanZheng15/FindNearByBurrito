@@ -14,6 +14,9 @@
 		08903D52211E55A0000D14A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08903D50211E55A0000D14A6 /* LaunchScreen.storyboard */; };
 		08903D5D211E55A0000D14A6 /* FindNearByBurritoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08903D5C211E55A0000D14A6 /* FindNearByBurritoTests.swift */; };
 		08903D68211E55A0000D14A6 /* FindNearByBurritoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08903D67211E55A0000D14A6 /* FindNearByBurritoUITests.swift */; };
+		21F4367D03A5AA8F9A00C6AF /* Pods_FindNearByBurritoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698D90EC020EE75B58454906 /* Pods_FindNearByBurritoUITests.framework */; };
+		D9ABE9FE6F4D90DE205997C6 /* Pods_FindNearByBurrito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1B619CABD93734AB5A05EB /* Pods_FindNearByBurrito.framework */; };
+		DCFDF846E021AC49B896B7E6 /* Pods_FindNearByBurritoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936672332BD6CC49CD529930 /* Pods_FindNearByBurritoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		08903D63211E55A0000D14A6 /* FindNearByBurritoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindNearByBurritoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08903D67211E55A0000D14A6 /* FindNearByBurritoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNearByBurritoUITests.swift; sourceTree = "<group>"; };
 		08903D69211E55A0000D14A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF9A2C81FDB01FE6B8B487E /* Pods-FindNearByBurritoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindNearByBurritoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindNearByBurritoUITests/Pods-FindNearByBurritoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		40B6C02B36D7E732E424AED6 /* Pods-FindNearByBurritoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindNearByBurritoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindNearByBurritoTests/Pods-FindNearByBurritoTests.release.xcconfig"; sourceTree = "<group>"; };
+		48DA90FCFF44D526070B8B95 /* Pods-FindNearByBurritoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindNearByBurritoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindNearByBurritoTests/Pods-FindNearByBurritoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		698D90EC020EE75B58454906 /* Pods_FindNearByBurritoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindNearByBurritoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F3A0345FA5B900CCAF0FFD /* Pods-FindNearByBurrito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindNearByBurrito.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindNearByBurrito/Pods-FindNearByBurrito.debug.xcconfig"; sourceTree = "<group>"; };
+		7ACAF29A4EFB4C10452BE797 /* Pods-FindNearByBurrito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindNearByBurrito.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindNearByBurrito/Pods-FindNearByBurrito.release.xcconfig"; sourceTree = "<group>"; };
+		8358CC0E9098F774386A88C5 /* Pods-FindNearByBurritoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindNearByBurritoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindNearByBurritoUITests/Pods-FindNearByBurritoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B1B619CABD93734AB5A05EB /* Pods_FindNearByBurrito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindNearByBurrito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		936672332BD6CC49CD529930 /* Pods_FindNearByBurritoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindNearByBurritoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9ABE9FE6F4D90DE205997C6 /* Pods_FindNearByBurrito.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFDF846E021AC49B896B7E6 /* Pods_FindNearByBurritoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F4367D03A5AA8F9A00C6AF /* Pods_FindNearByBurritoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				08903D5B211E55A0000D14A6 /* FindNearByBurritoTests */,
 				08903D66211E55A0000D14A6 /* FindNearByBurritoUITests */,
 				08903D45211E559E000D14A6 /* Products */,
+				42BD5D6A5749D26CE5E29A75 /* Pods */,
+				E598F683C792D318F6A24FB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = FindNearByBurritoUITests;
 			sourceTree = "<group>";
 		};
+		42BD5D6A5749D26CE5E29A75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79F3A0345FA5B900CCAF0FFD /* Pods-FindNearByBurrito.debug.xcconfig */,
+				7ACAF29A4EFB4C10452BE797 /* Pods-FindNearByBurrito.release.xcconfig */,
+				48DA90FCFF44D526070B8B95 /* Pods-FindNearByBurritoTests.debug.xcconfig */,
+				40B6C02B36D7E732E424AED6 /* Pods-FindNearByBurritoTests.release.xcconfig */,
+				8358CC0E9098F774386A88C5 /* Pods-FindNearByBurritoUITests.debug.xcconfig */,
+				2AF9A2C81FDB01FE6B8B487E /* Pods-FindNearByBurritoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E598F683C792D318F6A24FB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B1B619CABD93734AB5A05EB /* Pods_FindNearByBurrito.framework */,
+				936672332BD6CC49CD529930 /* Pods_FindNearByBurritoTests.framework */,
+				698D90EC020EE75B58454906 /* Pods_FindNearByBurritoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08903D6C211E55A0000D14A6 /* Build configuration list for PBXNativeTarget "FindNearByBurrito" */;
 			buildPhases = (
+				F26A0B15B757C02D5D65D277 /* [CP] Check Pods Manifest.lock */,
 				08903D40211E559E000D14A6 /* Sources */,
 				08903D41211E559E000D14A6 /* Frameworks */,
 				08903D42211E559E000D14A6 /* Resources */,
+				9D07CE8B88CA0D31C1AFAC82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08903D6F211E55A0000D14A6 /* Build configuration list for PBXNativeTarget "FindNearByBurritoTests" */;
 			buildPhases = (
+				5599073F9D283659C1CAA216 /* [CP] Check Pods Manifest.lock */,
 				08903D54211E55A0000D14A6 /* Sources */,
 				08903D55211E55A0000D14A6 /* Frameworks */,
 				08903D56211E55A0000D14A6 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08903D72211E55A0000D14A6 /* Build configuration list for PBXNativeTarget "FindNearByBurritoUITests" */;
 			buildPhases = (
+				383914FC78B28AFA4C63DDB0 /* [CP] Check Pods Manifest.lock */,
 				08903D5F211E55A0000D14A6 /* Sources */,
 				08903D60211E55A0000D14A6 /* Frameworks */,
 				08903D61211E55A0000D14A6 /* Resources */,
@@ -250,6 +294,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		383914FC78B28AFA4C63DDB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindNearByBurritoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5599073F9D283659C1CAA216 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindNearByBurritoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D07CE8B88CA0D31C1AFAC82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FindNearByBurrito/Pods-FindNearByBurrito-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindNearByBurrito/Pods-FindNearByBurrito-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F26A0B15B757C02D5D65D277 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindNearByBurrito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		08903D40211E559E000D14A6 /* Sources */ = {
@@ -428,6 +551,7 @@
 		};
 		08903D6D211E55A0000D14A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F3A0345FA5B900CCAF0FFD /* Pods-FindNearByBurrito.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +570,7 @@
 		};
 		08903D6E211E55A0000D14A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ACAF29A4EFB4C10452BE797 /* Pods-FindNearByBurrito.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +589,7 @@
 		};
 		08903D70211E55A0000D14A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48DA90FCFF44D526070B8B95 /* Pods-FindNearByBurritoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +611,7 @@
 		};
 		08903D71211E55A0000D14A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B6C02B36D7E732E424AED6 /* Pods-FindNearByBurritoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +633,7 @@
 		};
 		08903D73211E55A0000D14A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8358CC0E9098F774386A88C5 /* Pods-FindNearByBurritoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +654,7 @@
 		};
 		08903D74211E55A0000D14A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF9A2C81FDB01FE6B8B487E /* Pods-FindNearByBurritoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

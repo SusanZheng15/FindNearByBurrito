@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B8A6A057E411EEEEAD0F583F2400762 /* Pods-FindNearByBurrito-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D164DEBBE4C3AE6D91DAE2AC59E715 /* Pods-FindNearByBurrito-dummy.m */; };
+		422CC09E4376EB02B1B7EC10929ED823 /* Pods-FindNearByBurrito-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FC98830FA2FE060B611A81A597D7BC /* Pods-FindNearByBurrito-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E31B66ED627C15605E3EB6BA44810B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		54AA3B216C1ADA03BAA86ED966FED848 /* Pods-FindNearByBurritoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F33908E1AD48703566A5752A4FE5AFE2 /* Pods-FindNearByBurritoUITests-dummy.m */; };
+		664E3CD57021B4604FF91A5FCBE18088 /* Pods-FindNearByBurritoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F79C8052091F8B09DAF20199899EF6A9 /* Pods-FindNearByBurritoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C554585B8D54A86949C533478768D1D /* Pods-FindNearByBurritoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0103F87FD9E9191C207F82DD27721D09 /* Pods-FindNearByBurritoTests-dummy.m */; };
+		B961B3F323AC5EF8F75B1F37B210BEAE /* Pods-FindNearByBurritoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC94D99565CB13AFC6BB4A6D5A046C6F /* Pods-FindNearByBurritoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDBB1C425D342A085D9380728D14BB29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E3BF7A6367BDD8B32D360FEE2B8C30C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8000C5EF0C19CE62B5EB791C2DC800CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE6BFB5F6F481CC80428E670B0454A35;
+			remoteInfo = "Pods-FindNearByBurrito";
+		};
+		CFFD46DD1A12BA20765D03D3ED28000B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE6BFB5F6F481CC80428E670B0454A35;
+			remoteInfo = "Pods-FindNearByBurrito";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0103F87FD9E9191C207F82DD27721D09 /* Pods-FindNearByBurritoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FindNearByBurritoTests-dummy.m"; sourceTree = "<group>"; };
+		07790BD46C0A51AE9AF086D8F62242CC /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		0D9923A30E2E48BAD3FE4BC0ADDF7386 /* Pods-FindNearByBurritoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindNearByBurritoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0FE8B47FBE2848BF644C9AF4C93EF20C /* Pods-FindNearByBurritoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindNearByBurritoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1117A6D1FE68A6F983D560933AF5E265 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		138DA2BFB6C7F28D0CD9E43AA49FA9FE /* Pods-FindNearByBurritoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindNearByBurritoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		18FC98830FA2FE060B611A81A597D7BC /* Pods-FindNearByBurrito-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FindNearByBurrito-umbrella.h"; sourceTree = "<group>"; };
+		222FAC0EF8880F6B4C5EBABFA29CD24F /* Pods-FindNearByBurrito-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FindNearByBurrito-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D842F4C1FD4927D179F6212C7AC34CE /* Pods-FindNearByBurrito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindNearByBurrito.release.xcconfig"; sourceTree = "<group>"; };
+		34A0A16A1BE353131CBBBED14D6C68CD /* Pods-FindNearByBurritoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindNearByBurritoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B5065998C520F7568F50211D0D821BC /* Pods-FindNearByBurritoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindNearByBurritoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E65F57539F621FC0506B41CF58F7751 /* Pods-FindNearByBurritoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindNearByBurritoTests-resources.sh"; sourceTree = "<group>"; };
+		41F73E1426D2115BD3154B489D587AAE /* Pods-FindNearByBurritoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FindNearByBurritoTests.modulemap"; sourceTree = "<group>"; };
+		526BED83956D97D296297B8ADEB43D1E /* Pods-FindNearByBurritoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindNearByBurritoTests-frameworks.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66E68B9F1D5706C3FBBFD4A4D464920D /* Pods-FindNearByBurritoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FindNearByBurritoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70FE712B47193B0D7D398F3EF47D52F1 /* Pods-FindNearByBurritoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FindNearByBurritoUITests.modulemap"; sourceTree = "<group>"; };
+		78A96325298B3F8E31BBCC3EF05C15BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FA0A348EF9D030C7CA6E3AC537E4501 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F33CC2896DE00AFE1EE909C243FD53 /* Pods-FindNearByBurrito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindNearByBurrito.debug.xcconfig"; sourceTree = "<group>"; };
+		88B366A5BD092257ADCBB8D57C8B76C8 /* Pods-FindNearByBurritoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindNearByBurritoUITests-resources.sh"; sourceTree = "<group>"; };
+		8A288C4A559E95083F53D35301402791 /* Pods-FindNearByBurrito-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindNearByBurrito-resources.sh"; sourceTree = "<group>"; };
+		8BCCCA295DEE22197B0C283775AB5A26 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C5D4AA0C8D5CDA9C4F7A73C676C312 /* Pods-FindNearByBurritoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindNearByBurritoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		955D3A22EB34AB333524A949DC729F6B /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		9E03443E3B1F34451C79F6574E540D29 /* Pods_FindNearByBurrito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FindNearByBurrito.framework; path = "Pods-FindNearByBurrito.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6EBB6C847D4BAF138DB60EA1537F72 /* Pods-FindNearByBurrito-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindNearByBurrito-frameworks.sh"; sourceTree = "<group>"; };
+		9F95CA264716527EE6B8069F1BED4EAC /* Pods-FindNearByBurritoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FindNearByBurritoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9636A00FAF52297A2B733EE2D92B135 /* Pods-FindNearByBurrito.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FindNearByBurrito.modulemap"; sourceTree = "<group>"; };
+		AAAC5F628DE114B6CA37993126834D7C /* Pods-FindNearByBurritoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindNearByBurritoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5D164DEBBE4C3AE6D91DAE2AC59E715 /* Pods-FindNearByBurrito-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FindNearByBurrito-dummy.m"; sourceTree = "<group>"; };
+		B862730E173356F0533628B5F7F478F7 /* Pods_FindNearByBurritoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FindNearByBurritoUITests.framework; path = "Pods-FindNearByBurritoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B940E1693884E5C7E751D263379D72 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		D03A869DD65FA96F0F3EC3C99D237D40 /* Pods-FindNearByBurrito-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindNearByBurrito-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1DBCD0071D70866EBEFA8E983E0A2FE /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		D57A28887B9E80E29D36BD414E63A790 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		DE6D813C2480BFCB39E614B9535A00EF /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		E1A3C53B14FEFC0C4437E923C873B73F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B8D5C10876D04CA8D2A4D2FCB55DB8 /* Pods_FindNearByBurritoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FindNearByBurritoTests.framework; path = "Pods-FindNearByBurritoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC94D99565CB13AFC6BB4A6D5A046C6F /* Pods-FindNearByBurritoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FindNearByBurritoUITests-umbrella.h"; sourceTree = "<group>"; };
+		F33908E1AD48703566A5752A4FE5AFE2 /* Pods-FindNearByBurritoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FindNearByBurritoUITests-dummy.m"; sourceTree = "<group>"; };
+		F79C8052091F8B09DAF20199899EF6A9 /* Pods-FindNearByBurritoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FindNearByBurritoTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06D3CE0C9E380AFAC16DB2149D1B1C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3BF7A6367BDD8B32D360FEE2B8C30C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494DCE51536795ED30AC823E58F6198E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBB1C425D342A085D9380728D14BB29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FE14E7C62CC8282EC657D5B7ED5DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E31B66ED627C15605E3EB6BA44810B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057612C31241123A1B53E2F8FEE23AB0 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				8BA44F82F96D164DA342FB09A0BEE150 /* Frameworks */,
+				DADFB7FC1731804E229D4AEF6493F2F7 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		1D6DD5F5011FC1022A44934B23247B7E /* Pods-FindNearByBurrito */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0A348EF9D030C7CA6E3AC537E4501 /* Info.plist */,
+				A9636A00FAF52297A2B733EE2D92B135 /* Pods-FindNearByBurrito.modulemap */,
+				222FAC0EF8880F6B4C5EBABFA29CD24F /* Pods-FindNearByBurrito-acknowledgements.markdown */,
+				D03A869DD65FA96F0F3EC3C99D237D40 /* Pods-FindNearByBurrito-acknowledgements.plist */,
+				B5D164DEBBE4C3AE6D91DAE2AC59E715 /* Pods-FindNearByBurrito-dummy.m */,
+				9F6EBB6C847D4BAF138DB60EA1537F72 /* Pods-FindNearByBurrito-frameworks.sh */,
+				8A288C4A559E95083F53D35301402791 /* Pods-FindNearByBurrito-resources.sh */,
+				18FC98830FA2FE060B611A81A597D7BC /* Pods-FindNearByBurrito-umbrella.h */,
+				83F33CC2896DE00AFE1EE909C243FD53 /* Pods-FindNearByBurrito.debug.xcconfig */,
+				2D842F4C1FD4927D179F6212C7AC34CE /* Pods-FindNearByBurrito.release.xcconfig */,
+			);
+			name = "Pods-FindNearByBurrito";
+			path = "Target Support Files/Pods-FindNearByBurrito";
+			sourceTree = "<group>";
+		};
+		1F61BA309250594EBE55BD49552F0FFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E03443E3B1F34451C79F6574E540D29 /* Pods_FindNearByBurrito.framework */,
+				E6B8D5C10876D04CA8D2A4D2FCB55DB8 /* Pods_FindNearByBurritoTests.framework */,
+				B862730E173356F0533628B5F7F478F7 /* Pods_FindNearByBurritoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45A6375AD18305E8BA7B79AD1BE61E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BCCCA295DEE22197B0C283775AB5A26 /* GoogleMaps.framework */,
+				1117A6D1FE68A6F983D560933AF5E265 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A999BD5B4C2C01904FC59776164FBE1 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				45A6375AD18305E8BA7B79AD1BE61E9D /* Frameworks */,
+				E8816D4FFB28FB18F0B906E7CC732470 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C62832EC902B481843EFC870F9D95CC2 /* Pods */,
+				1F61BA309250594EBE55BD49552F0FFD /* Products */,
+				8F3A233A3FC0F3034DE1AFDEF7B33D40 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BA44F82F96D164DA342FB09A0BEE150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				955D3A22EB34AB333524A949DC729F6B /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F3A233A3FC0F3034DE1AFDEF7B33D40 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D6DD5F5011FC1022A44934B23247B7E /* Pods-FindNearByBurrito */,
+				F4784B2C63DBE7EC27C554EF236F2F6A /* Pods-FindNearByBurritoTests */,
+				9B52D6334A4B7012702545FBF0A98F6B /* Pods-FindNearByBurritoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8FFA7EAE118844748AD9685060A6B673 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FD4ED290151C28ABCF7A3EA0217355EB /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		9B52D6334A4B7012702545FBF0A98F6B /* Pods-FindNearByBurritoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78A96325298B3F8E31BBCC3EF05C15BD /* Info.plist */,
+				70FE712B47193B0D7D398F3EF47D52F1 /* Pods-FindNearByBurritoUITests.modulemap */,
+				9F95CA264716527EE6B8069F1BED4EAC /* Pods-FindNearByBurritoUITests-acknowledgements.markdown */,
+				34A0A16A1BE353131CBBBED14D6C68CD /* Pods-FindNearByBurritoUITests-acknowledgements.plist */,
+				F33908E1AD48703566A5752A4FE5AFE2 /* Pods-FindNearByBurritoUITests-dummy.m */,
+				94C5D4AA0C8D5CDA9C4F7A73C676C312 /* Pods-FindNearByBurritoUITests-frameworks.sh */,
+				88B366A5BD092257ADCBB8D57C8B76C8 /* Pods-FindNearByBurritoUITests-resources.sh */,
+				EC94D99565CB13AFC6BB4A6D5A046C6F /* Pods-FindNearByBurritoUITests-umbrella.h */,
+				0FE8B47FBE2848BF644C9AF4C93EF20C /* Pods-FindNearByBurritoUITests.debug.xcconfig */,
+				3B5065998C520F7568F50211D0D821BC /* Pods-FindNearByBurritoUITests.release.xcconfig */,
+			);
+			name = "Pods-FindNearByBurritoUITests";
+			path = "Target Support Files/Pods-FindNearByBurritoUITests";
+			sourceTree = "<group>";
+		};
+		9C0A1FBBD02B7528347BC7FB84DE24F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07790BD46C0A51AE9AF086D8F62242CC /* GooglePlacePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C62832EC902B481843EFC870F9D95CC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5C0912CEC7444CFF51EFFE502270519 /* GoogleMaps */,
+				CCA175DF4D87459CA14C4E01BCFDEF95 /* GooglePlacePicker */,
+				057612C31241123A1B53E2F8FEE23AB0 /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCA175DF4D87459CA14C4E01BCFDEF95 /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9C0A1FBBD02B7528347BC7FB84DE24F5 /* Frameworks */,
+				CCDB8ACB50B37F1810F3A87BA87382A7 /* Resources */,
+			);
+			name = GooglePlacePicker;
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		CCDB8ACB50B37F1810F3A87BA87382A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE6D813C2480BFCB39E614B9535A00EF /* GooglePlacePicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DADFB7FC1731804E229D4AEF6493F2F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9B940E1693884E5C7E751D263379D72 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E5C0912CEC7444CFF51EFFE502270519 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				8FFA7EAE118844748AD9685060A6B673 /* Base */,
+				7A999BD5B4C2C01904FC59776164FBE1 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		E8816D4FFB28FB18F0B906E7CC732470 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D57A28887B9E80E29D36BD414E63A790 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F4784B2C63DBE7EC27C554EF236F2F6A /* Pods-FindNearByBurritoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1A3C53B14FEFC0C4437E923C873B73F /* Info.plist */,
+				41F73E1426D2115BD3154B489D587AAE /* Pods-FindNearByBurritoTests.modulemap */,
+				66E68B9F1D5706C3FBBFD4A4D464920D /* Pods-FindNearByBurritoTests-acknowledgements.markdown */,
+				0D9923A30E2E48BAD3FE4BC0ADDF7386 /* Pods-FindNearByBurritoTests-acknowledgements.plist */,
+				0103F87FD9E9191C207F82DD27721D09 /* Pods-FindNearByBurritoTests-dummy.m */,
+				526BED83956D97D296297B8ADEB43D1E /* Pods-FindNearByBurritoTests-frameworks.sh */,
+				3E65F57539F621FC0506B41CF58F7751 /* Pods-FindNearByBurritoTests-resources.sh */,
+				F79C8052091F8B09DAF20199899EF6A9 /* Pods-FindNearByBurritoTests-umbrella.h */,
+				138DA2BFB6C7F28D0CD9E43AA49FA9FE /* Pods-FindNearByBurritoTests.debug.xcconfig */,
+				AAAC5F628DE114B6CA37993126834D7C /* Pods-FindNearByBurritoTests.release.xcconfig */,
+			);
+			name = "Pods-FindNearByBurritoTests";
+			path = "Target Support Files/Pods-FindNearByBurritoTests";
+			sourceTree = "<group>";
+		};
+		FD4ED290151C28ABCF7A3EA0217355EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1DBCD0071D70866EBEFA8E983E0A2FE /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08FC67EDF55F171B92AC3E2A8D196F0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B961B3F323AC5EF8F75B1F37B210BEAE /* Pods-FindNearByBurritoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143593773402A9D421E6EA66A157FE0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422CC09E4376EB02B1B7EC10929ED823 /* Pods-FindNearByBurrito-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1CDD001C57C3E5A0BB0175C8202A617 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664E3CD57021B4604FF91A5FCBE18088 /* Pods-FindNearByBurritoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		72D341E4DD40DFC7FB6AF78C3F9CB3F6 /* Pods-FindNearByBurritoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89031821FEF84AA396765A1E55DA1393 /* Build configuration list for PBXNativeTarget "Pods-FindNearByBurritoUITests" */;
+			buildPhases = (
+				F980729C7B5EC47471398F01560A68EA /* Sources */,
+				A9FE14E7C62CC8282EC657D5B7ED5DBC /* Frameworks */,
+				08FC67EDF55F171B92AC3E2A8D196F0F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64E4AE757F313FA07C95C68C75AFB293 /* PBXTargetDependency */,
+			);
+			name = "Pods-FindNearByBurritoUITests";
+			productName = "Pods-FindNearByBurritoUITests";
+			productReference = B862730E173356F0533628B5F7F478F7 /* Pods_FindNearByBurritoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB300F211E2D7B19ED5977DB9C71C948 /* Pods-FindNearByBurritoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E017B968B858A8F21E91F9C8E682712 /* Build configuration list for PBXNativeTarget "Pods-FindNearByBurritoTests" */;
+			buildPhases = (
+				63A5B74487C867BB2F535304086FA957 /* Sources */,
+				06D3CE0C9E380AFAC16DB2149D1B1C9A /* Frameworks */,
+				B1CDD001C57C3E5A0BB0175C8202A617 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09C690BD1006F54B60BFE8186D26478F /* PBXTargetDependency */,
+			);
+			name = "Pods-FindNearByBurritoTests";
+			productName = "Pods-FindNearByBurritoTests";
+			productReference = E6B8D5C10876D04CA8D2A4D2FCB55DB8 /* Pods_FindNearByBurritoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE6BFB5F6F481CC80428E670B0454A35 /* Pods-FindNearByBurrito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC9F9EEEF5D76481FA334AE29DE1E2C /* Build configuration list for PBXNativeTarget "Pods-FindNearByBurrito" */;
+			buildPhases = (
+				007A92F1B750E66CCF1AAF07BF5B1208 /* Sources */,
+				494DCE51536795ED30AC823E58F6198E /* Frameworks */,
+				143593773402A9D421E6EA66A157FE0C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FindNearByBurrito";
+			productName = "Pods-FindNearByBurrito";
+			productReference = 9E03443E3B1F34451C79F6574E540D29 /* Pods_FindNearByBurrito.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1F61BA309250594EBE55BD49552F0FFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE6BFB5F6F481CC80428E670B0454A35 /* Pods-FindNearByBurrito */,
+				BB300F211E2D7B19ED5977DB9C71C948 /* Pods-FindNearByBurritoTests */,
+				72D341E4DD40DFC7FB6AF78C3F9CB3F6 /* Pods-FindNearByBurritoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		007A92F1B750E66CCF1AAF07BF5B1208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8A6A057E411EEEEAD0F583F2400762 /* Pods-FindNearByBurrito-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A5B74487C867BB2F535304086FA957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C554585B8D54A86949C533478768D1D /* Pods-FindNearByBurritoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F980729C7B5EC47471398F01560A68EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AA3B216C1ADA03BAA86ED966FED848 /* Pods-FindNearByBurritoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09C690BD1006F54B60BFE8186D26478F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FindNearByBurrito";
+			target = FE6BFB5F6F481CC80428E670B0454A35 /* Pods-FindNearByBurrito */;
+			targetProxy = CFFD46DD1A12BA20765D03D3ED28000B /* PBXContainerItemProxy */;
+		};
+		64E4AE757F313FA07C95C68C75AFB293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FindNearByBurrito";
+			target = FE6BFB5F6F481CC80428E670B0454A35 /* Pods-FindNearByBurrito */;
+			targetProxy = 8000C5EF0C19CE62B5EB791C2DC800CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53483118539D183B16B312E73EFB390F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FE8B47FBE2848BF644C9AF4C93EF20C /* Pods-FindNearByBurritoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindNearByBurritoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindNearByBurritoUITests/Pods-FindNearByBurritoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8EB5104AB212E2452478619E0C741174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F33CC2896DE00AFE1EE909C243FD53 /* Pods-FindNearByBurrito.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindNearByBurrito/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindNearByBurrito/Pods-FindNearByBurrito.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B1D7F9507725D0FEA63381AA9495D532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAAC5F628DE114B6CA37993126834D7C /* Pods-FindNearByBurritoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindNearByBurritoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindNearByBurritoTests/Pods-FindNearByBurritoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B27DA1434F705D74450271205BC4D0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 138DA2BFB6C7F28D0CD9E43AA49FA9FE /* Pods-FindNearByBurritoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindNearByBurritoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindNearByBurritoTests/Pods-FindNearByBurritoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA082E42F13F28B57B8422D463785428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B5065998C520F7568F50211D0D821BC /* Pods-FindNearByBurritoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindNearByBurritoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindNearByBurritoUITests/Pods-FindNearByBurritoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAE8A6D4752DC9119340F28ADB2986F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D842F4C1FD4927D179F6212C7AC34CE /* Pods-FindNearByBurrito.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindNearByBurrito/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindNearByBurrito/Pods-FindNearByBurrito.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89031821FEF84AA396765A1E55DA1393 /* Build configuration list for PBXNativeTarget "Pods-FindNearByBurritoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53483118539D183B16B312E73EFB390F /* Debug */,
+				DA082E42F13F28B57B8422D463785428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E017B968B858A8F21E91F9C8E682712 /* Build configuration list for PBXNativeTarget "Pods-FindNearByBurritoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27DA1434F705D74450271205BC4D0D1 /* Debug */,
+				B1D7F9507725D0FEA63381AA9495D532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC9F9EEEF5D76481FA334AE29DE1E2C /* Build configuration list for PBXNativeTarget "Pods-FindNearByBurrito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB5104AB212E2452478619E0C741174 /* Debug */,
+				FAE8A6D4752DC9119340F28ADB2986F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
